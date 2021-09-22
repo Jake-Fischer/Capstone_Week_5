@@ -29,6 +29,17 @@ def main():
     db.connect()
     db.create_tables([Record])
 
+    # Record.delete().execute()
+
+    # tom = Record(name='Tom', country='USA', catches=43)
+    # tom.save()
+
+    # zoe = Record(name='Zoe', country='UK', catches=10)
+    # zoe.save()
+
+    # bob = Record(name='Bob', country='China', catches=38)
+    # bob.save()
+
     while True:
         print(menu_text)
         choice = input('Enter your choice: ')
