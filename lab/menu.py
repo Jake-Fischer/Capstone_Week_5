@@ -29,6 +29,7 @@ def main():
     db.connect()
     db.create_tables([Record])
 
+    # Test data
     # Record.delete().execute()
 
     # tom = Record(name='Tom', country='USA', catches=43)
